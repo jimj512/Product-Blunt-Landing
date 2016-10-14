@@ -1,0 +1,81 @@
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+html {
+   background: url(../img/pb-landing.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font: 100%/1.35 sans-serif;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  -webkit-transition: all .25s ease-in-out;
+-moz-transition: all .25s ease-in-out;
+-ms-transition: all .25s ease-in-out;
+-o-transition: all .25s ease-in-out;
+transition: all .25s ease-in-out;
+}
+main {
+  text-align: center;
+}
+.icon {
+  width: 62px;
+  margin-bottom: 20px;
+}
+.logo {
+  width: 215px;
+  margin: auto auto 30px;
+}
+.button {
+  border-radius: 10px;
+  position: relative;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 26px;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: inline-block;
+  margin-top: 1em;
+}
+.button:hover {
+  background: white;
+  color: black;
+}
+.social {
+  text-align: center;
+  margin-top: 3em;
+}
+.social_link img{
+    width: 24px;
+    margin: 0 1em;
+}
+.social_link img:hover {
+  opacity: .75;
+}
+h1 {
+  font-size: 1.75em;
+}
+p {
+  font-size: 1.5em;
+}
+.break {
+  width: 2em;
+  border: 1px solid white;
+      border-radius: 1px;
+}
